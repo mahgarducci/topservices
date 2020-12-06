@@ -9,7 +9,7 @@
 	<div class="container">
 		<div class="row justify-content-between align-items-center text-center banner-content">
 			<div class="col-lg-12">
-				<h1 class="text-white">Our Services</h1>
+				<h1 class="text-white">Nossos Serviços</h1>
 				<p>Days so us evening for herb bearing lesser man female night</p>
 			</div>
 		</div>
@@ -18,44 +18,7 @@
 <!-- End top-section Area -->
 
 <!-- Start features Area -->
-<section class="features-area section-gap-top" id="news">
-	<div class="container">
-		<div class="row feature_inner">
-			<div class="col-lg-3 col-md-6">
-				<div class="feature-item">
-					<i class="fi flaticon-compass"></i>
-					<h4>Creative Design</h4>
-					<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="feature-item">
-					<i class="fi flaticon-desk"></i>
-					<h4>Experienced Style</h4>
-					<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="feature-item">
-					<i class="fi flaticon-bathroom"></i>
-					<h4>Product Research</h4>
-					<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="feature-item">
-					<i class="fi flaticon-beach"></i>
-					<h4>Affordable Price</h4>
-					<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<?php include 'features-area.php'; ?>
 <!-- End features Area -->
 
 <!-- Start Offer Area -->
@@ -66,8 +29,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="section-title text-left mb-5">
-							<h4>Our Service</h4>
-							<h2>What We Offer For Your <br /> Dream House</h2>
+							<h2>O que fazemos por você <br /> e pela usa casa</h2>
 						</div>
 					</div>
 				</div>

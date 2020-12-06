@@ -55,7 +55,7 @@
 					id="navbarSupportedContent">
 					<ul class="navbar-nav">
 						<li><a class="active" href="index.php">Home</a></li>
-						<li><a href="about.php">Sobre</a></li>
+						<li><a href="about.php">Sobre Nós</a></li>
 						<li><a href="services.php">Serviços</a></li>
 						<li class="dropdown">
 							<a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">

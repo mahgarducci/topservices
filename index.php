@@ -22,52 +22,16 @@
 	<div class="head-bottom-meta">
 		<div class="d-flex meta-left no-padding">
 			<a href="https://www.instagram.com/aletrecista/?hl=pt-br" target="_blank"><span class="fa fa-instagram"></span></a>
-			<a href="#"><span class="fa fa-facebook-f" target="_blank"></span></a>
-			<a href="#"><span class="fa fa-youtube" target="_blank"></span></a>
+			<a href="#" target="_blank"><span class="fa fa-facebook-f"></span></a>
+			<a href="#" target="_blank"><span class="fa fa-youtube"></span></a>
+			<a href="https://wa.me/5511985163502?text=Olá, vi seu trabalho pelo site e gostaria de fazer um orçamento." target="_blank"><span class="fa fa-whatsapp"></span></a>
 		</div>
 	</div>
 </section>
 <!-- End banner Area -->
 
 <!-- Start features Area -->
-<section class="features-area section-gap-top" id="news">
-	<div class="container">
-		<div class="row feature_inner">
-			<div class="col-lg-3 col-md-6">
-				<div class="feature-item">
-					<i class="fi flaticon-compass"></i>
-					<h4>Gesso</h4>
-					<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="feature-item">
-				<i class="fa fa-paint-brush"></i>
-					<h4>Pintura</h4>
-					<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="feature-item">
-					<i class="fa flaticon-bathroom"></i>
-					<h4>Construção</h4>
-					<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc
-					</p>
-				</div>
-			</div>
-			<div class="col-lg-3 col-md-6">
-				<div class="feature-item">
-					<i class="fi flaticon-beach"></i>
-					<h4>Elétrica</h4>
-					<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+<?php include 'features-area.php'; ?>
 <!-- End features Area -->
 
 <!-- Start About Area -->
@@ -79,8 +43,8 @@
 			</div>
 			<div class="col-lg-5 col-md-12 about-right">
 				<div class="section-title text-left">
-					<h4>About Us</h4>
-					<h2>We are world <br /> number one Company</h2>
+					<h4>Um breve resumo sobre nós</h4>
+					<h2>Empresa séria, <br /> moderna e profissional</h2>
 				</div>
 				<div>
 					<p>
@@ -89,7 +53,7 @@
 						from seas him open him From creepeth after, life is above image from replenish behold great
 					</p>
 				</div>
-				<a href="#" class="primary-btn">Read More</a>
+				<a href="about.php" class="primary-btn">Leia mais</a>
 			</div>
 		</div>
 	</div>
@@ -102,18 +66,18 @@
 		<div class="row d-flex justify-content-center">
 			<div class="col-lg-8">
 				<div class="section-title text-center">
-					<h4>Recent Work</h4>
-					<h2>View Our Project</h2>
+					<h4>Meus Trabalhos</h4>
+					<h2>Meus Projetos</h2>
 				</div>
 			</div>
 			<div class="col-lg-12">
 				<div class="filters mb-5">
 					<ul>
-						<li class="active" data-filter=".all">All</li>
-						<li data-filter=".popular">Popular</li>
-						<li data-filter=".latest">Latest</li>
-						<li data-filter=".following">Following</li>
-						<li data-filter=".upcoming">Upcoming</li>
+						<li class="active" data-filter=".all">Todos</li>
+						<li data-filter=".popular">Gesso</li>
+						<li data-filter=".latest">Pintura</li>
+						<li data-filter=".following">Obras</li>
+						<li data-filter=".upcoming">Elétrica</li>
 					</ul>
 				</div>
 			</div>
@@ -194,11 +158,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="call-wrap mx-auto">
-				<h1>View Our Project </h1>
+				<h1>Veja meu trabalho</h1>
 				<a id="play-home-video" class="video-play-button" href="https://www.youtube.com/watch?v=_C5vCGB8Xx0">
 					<span></span>
 				</a>
-				<p>05:35</p>
 			</div>
 		</div>
 	</div>
@@ -206,7 +169,7 @@
 <!-- End callto Area -->
 
 <!-- Start testimonial Area -->
-<section class="testimonial-area relative section-gap" id="testimonial">
+<!-- <section class="testimonial-area relative section-gap" id="testimonial">
 	<div class="container">
 		<div class="row d-flex justify-content-center">
 			<div class="col-lg-12">
@@ -291,11 +254,11 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- End testimonial Area -->
 
 <!-- Start brands Area -->
-<section class="brands-area">
+<!-- <section class="brands-area">
 	<div class="container no-padding">
 		<div class="brand-wrap section-gap">
 			<div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
@@ -317,7 +280,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- End brands Area -->
 
 <?php include 'footer.php'; ?>

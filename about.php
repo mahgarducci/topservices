@@ -9,7 +9,7 @@
 		<div class="container">
 			<div class="row justify-content-between align-items-center text-center banner-content">
 				<div class="col-lg-12">
-					<h1 class="text-white">About Us</h1>
+					<h1 class="text-white">Sobre Nós</h1>
 					<p>Days so us evening for herb bearing lesser man female night</p>
 				</div>
 			</div>
@@ -18,40 +18,7 @@
 	<!-- End top-section Area -->
 
 	<!-- Start features Area -->
-	<section class="features-area section-gap-top" id="news">
-		<div class="container">
-			<div class="row feature_inner">
-				<div class="col-lg-3 col-md-6">
-					<div class="feature-item">
-						<i class="fi flaticon-compass"></i>
-						<h4>Creative Design</h4>
-						<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc </p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="feature-item">
-						<i class="fi flaticon-desk"></i>
-						<h4>Experienced Style</h4>
-						<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc </p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="feature-item">
-						<i class="fi flaticon-bathroom"></i>
-						<h4>Product Research</h4>
-						<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc </p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="feature-item">
-						<i class="fi flaticon-beach"></i>
-						<h4>Affordable Price</h4>
-						<p>Hac facilisi ac vitae consec tetu commodo vel magna suspendisse on senectus pharetra magnfauc </p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	<?php include 'features-area.php'; ?>
 	<!-- End features Area -->
 
 	<!-- Start About Area -->
@@ -63,16 +30,20 @@
 				</div>
 				<div class="col-lg-5 col-md-12 about-right">
 					<div class="section-title text-left">
-						<h4>About Us</h4>
-						<h2>We are world <br /> number one Company</h2>
+						<h2>Empresa séria, <br /> moderna e profissional</h2>
 					</div>
 					<div>
 						<p>
 							Face male he light it moveth darkness winged eveni seas after life every gathering is forth two kind lesser i
 							from seas him open him From creepeth after, life is above image from replenish behold great
 						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas mattis venenatis quam at auctor. Aliquam sed interdum lorem, ut pharetra nibh. Donec euismod lacus neque, et porttitor mauris luctus sed. Nullam egestas, velit eu commodo facilisis, ligula quam mollis quam, nec aliquet turpis eros ac sapien. Proin quis odio quam. Aenean auctor quis dolor a interdum. Vivamus et dui turpis. Ut non dui vel mi aliquet consequat vel vitae nisi. Suspendisse venenatis suscipit pretium. Nunc bibendum mollis dui, sit amet sagittis ante faucibus et. Donec pretium dolor lobortis consequat lacinia. Vestibulum ut egestas tortor. Suspendisse rhoncus, lorem quis tristique bibendum, quam mi suscipit enim, eget iaculis risus tortor sit amet ligula.
+						</p>
+						<p>
+							Ut efficitur pellentesque porta. Proin mattis lacus sagittis eros egestas laoreet. Nunc et dui vel nibh porttitor iaculis ut quis metus. Curabitur tincidunt arcu vitae elementum tincidunt. Maecenas consectetur viverra turpis, ac mollis metus sagittis a. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec eu vestibulum lacus. Duis iaculis, odio sit amet accumsan pharetra, elit dui luctus lorem, ac vulputate urna ante ut diam. Pellentesque et sem augue. In aliquam congue neque ac imperdiet. Praesent pretium erat quis tortor interdum, ut accumsan lectus sollicitudin.
+						</p>
 					</div>
-					<a href="#" class="primary-btn">Read More</a>
 				</div>
 			</div>
 		</div>
@@ -80,7 +51,7 @@
 	<!-- End About Area -->
 
 	<!-- Start testimonial Area -->
-	<section class="testimonial-area relative section-gap-top bg-white" id="testimonial">
+	<!-- <section class="testimonial-area relative section-gap-top bg-white" id="testimonial">
 		<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="col-lg-12">
@@ -165,11 +136,11 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- End testimonial Area -->
 
 	<!-- Start brands Area -->
-	<section class="brands-area">
+	<!-- <section class="brands-area">
 		<div class="container no-padding">
 			<div class="brand-wrap section-gap">
 				<div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
@@ -191,7 +162,7 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- End brands Area -->
 
 	<?php include 'footer.php'; ?>
