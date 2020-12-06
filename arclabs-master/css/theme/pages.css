@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+#logo-navbar {
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    font-size: xx-large;
+}
+
+.home-banner-area {
+    height: 100vh;
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #FD1D1D;
+}
+
+.fa-youtube:hover {
+    color: #c4302b;
+}
+
+
+
+
