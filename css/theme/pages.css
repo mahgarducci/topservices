@@ -10,12 +10,12 @@
     height: 100vh;
 }
 
-.fa-facebook-f:hover {
-    color: #3b5998;
-}
-
 .fa-instagram:hover {
     color: #FD1D1D;
+}
+
+.fa-facebook-f:hover {
+    color: #3b5998;
 }
 
 .fa-youtube:hover {
@@ -24,4 +24,14 @@
 
 .fa-whatsapp:hover {
     color: #25D366
+}
+
+@media screen and (min-width: 1200px) {
+    .home-banner-area .banner-content {
+        margin-top: 15%;
+    }
+
+    .head-bottom-meta {
+        left: 10%;
+    }
 }
